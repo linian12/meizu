@@ -1,0 +1,78 @@
+*                                                                                                          {
+	margin: 0;padding: 0;
+}
+a{
+	text-decoration: none;font-size: 12px; color: #666666;
+}
+a:hover{
+	color: #00C3F5;
+}
+ul{
+	list-style:none;
+}
+body{
+	font-size: 14px;
+	color: #666666;
+	font-family: 微软雅黑,"Microsoft Yahei",Arial,Helvetica,sans-serif,宋体;
+	width: 100%;
+}   
+header{
+	background: #FAFAFA;
+	width: 100%;
+	height:40px; 	
+}
+header nav{
+	width: 1240px;
+	margin: 0 auto;
+	position: relative;
+}
+header li{
+	float: left;
+	margin-right: 40px;
+	line-height: 40px;
+	text-align: left;
+}
+.clearfix:before,
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.clearfix{
+	zoom:1;/*兼容IE6,7*/
+}
+.rightNav{
+	position: absolute;
+	right: 0;
+}
+.icon-new{
+	position: relative;
+	background-color: #ed4462;
+	width: 27px;
+	height: 13px;
+	margin-left: 6px;
+	border-radius: 2px;
+	margin-top: -1px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.icon-new:before{
+	position: absolute;
+	content: '';
+	left: -3px;
+	top: 2px;
+	border-top: 4px solid transparent;
+	border-right: 5px solid #ed4462;
+	border-bottom: 4px solid transparent;
+}
+.icon-new:after{
+	content: 'new';
+	font-size: 10px;
+	top: -15px;
+	position: absolute;
+	width: 27px;
+	height: 12px;
+	text-align: center;
+	color: #fff;
+}
+

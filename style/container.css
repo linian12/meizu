@@ -1,0 +1,275 @@
+.container{
+	border-bottom: 1px solid #EFEFEF;
+}
+/*con-header*/
+.con-header {
+	width: 1240px;
+	margin: 0 auto;
+	position: relative;
+	height: 80px;
+}
+.con-header span{
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 80px;
+	color: #00C3F5;
+	display: inline;
+	position: absolute;
+}
+.con-contact{
+	position: absolute;
+	left: 200px;
+	margin-left: 100px;
+}
+.con-header li{
+	float: left;
+	text-align: center;
+	margin-right: 10px;
+	padding: 0 10px 0 10px;
+	line-height: 80px;	
+}
+.con-header li a{
+	color: #333333;
+	font-size: 14px;
+}
+.con-header li a:hover{
+	color: #00C3F5;
+}
+#con-pic{
+	position: relative;
+	
+}
+.con-pic-li{
+	position: absolute;
+	z-index: 0;
+	filter: alpha(opacity:30);
+	opacity: 0.3;
+}
+.con-pic-li img{
+	width: 1345px;
+	height: 480px;
+}
+.con-nav{
+	position: relative;
+	z-index: 1000;
+	width: 1240px;
+	margin: 0 auto;
+}
+.con-tab {         
+	height: 456px;
+	padding: 12px 0 12px 0;
+	width: 244px;
+	background-color: rgba(248,247,247,0.8);
+	
+}
+.con-tab li{
+	line-height: 57px;
+	height: 57px;
+	padding: 0 30px 0 30px;
+}
+.con-tab li:hover{
+	background-color: #fff;
+}
+.con-tab a{
+	color: #3A3A3A;
+	font-size: 14px; 
+}
+#con-prev{
+	position: absolute;
+	left: 244px;
+	top: 210px;
+	padding: 21px 9px 21px 9px;
+}
+#con-next{
+	position: absolute;
+	right: 0;
+	top: 210px;
+	padding: 21px 9px 21px 9px;
+}
+.con-pn{
+	width: 12px;
+	background-color: #333333;
+	filter: alpha(opacity:80);
+	opacity: 0.8;
+}
+.con-pager{
+	top: 439px;
+	height: 21px;
+	padding-top: 20px;
+	position: absolute;
+	left: 742px;
+}
+.con-pager div{
+	border-radius: 50%;
+	border: 1px solid #C0C0C0;
+	width: 9px;
+	height: 9px;
+	margin-right: 5px;
+	display: inline-block;
+	cursor: pointer;
+}
+.con-pager div:hover{
+	border: 1px solid #00C3F5;
+	background-color: #00C3F5;
+}
+.mzcontainer{
+	width: 1240px;
+	margin: 0 auto;
+}
+.home-mzad{
+	margin-top: 6px;
+	height: 140px;
+	overflow: hidden;
+}
+.home-mzad img{
+	float: left;
+	margin-right: 4px;
+}
+.service-module{
+	float: left;
+	width: 244px;
+	margin-right: 4px;
+	height: 140px;
+	background-color: #F3F2F2;
+}
+.home-panel-topbar{
+	position: relative;
+	height: 33px;
+	margin-top: 40px;
+}
+.home-panel-topbar h2{
+	float: left;
+	font-size: 24px;
+	color: #333333;
+	font-weight: normal;
+}
+#home-panel-tool{
+	position: absolute;
+	right: 2px;
+}
+#home-panel-tool img{
+	border: 1px solid #BDBDBD;
+}
+.more-arrow{
+	filter:alpha(opacity:50);
+	opacity: 0.5;
+}
+.home-rmd-content{
+	padding: 20px 0 40px 0;
+	overflow: hidden;
+	position: relative;
+	margin-left: -1px;
+}
+.product-sign{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	font-size: 12px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background-color: #F59646;
+	position: absolute;
+	top: 16px;
+	right: 16px;
+}
+#home-rmd-content{
+	height: 340px;
+}
+.home-rmd-box{
+	position: absolute;
+}
+.rmd-box{
+	height: 338px;
+	width: 247px;
+	float: left;
+	position: relative;
+}
+.rmd-box-product{
+	border: 1px solid #EFEFEF;
+	margin-right: -1px;
+}
+.rmd-box-product:hover{
+	border-color: #CCCCCC;
+}
+.rmd-product-detail{
+	padding: 36px 10px 5px 10px;
+	height: 281px;
+	text-align: center;
+}
+.rmd-product-detail h4{
+	font-size: 14px;
+	color: #555757;
+	font-weight: normal;
+}
+.rmd-product-detail h6{
+	font-size: 12px;
+	color: #999999;
+	margin-top: 2px;
+	font-weight: normal;
+}
+.rmd-product-desc{
+	margin-top: 40px;
+}
+.rmd-product-bottom{
+	font-size: 12px;
+	color: #E02B41;
+	margin-top: 5px;
+}
+.rmd-product-bottom span{
+	font-size: 14px;
+}
+.hot-pointer{
+	position: relative;
+	width: 1240px;
+}
+.home-tool-more{
+	position: absolute;
+	right: 0;
+	font-size: 14px;
+}
+.home-full-box{
+	margin-top: 30px;
+	background-color: #F5F5F5;
+	overflow: hidden;
+}
+.rmd-content{
+	margin-right: -6px;
+}
+.box-product{
+	width: 243px;
+	background-color: #fff;
+	margin: 0 6px 6px 0;
+	overflow: hidden;
+}
+.homeBar li{
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.homeBar li a{
+	font-size: 14px;
+	color: #333333;
+}
+.homeBar li a:hover{
+	color: #00C3F5;
+}
+.rmd-ad{
+	width: 244px;
+	height: 100px;
+	position: absolute;
+	bottom: -100px;
+	background-color: rgba(248,247,247,0.8);
+}
+.rmd-ad a{
+	margin: 30px 28px 0 28px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	width: 188px;
+	display: block;
+	text-align: center;
+	background-color: #FF5A59;
+	color: #fff;
+	border-radius: 5px;
+}
